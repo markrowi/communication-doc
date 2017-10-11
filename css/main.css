@@ -1,0 +1,51 @@
+#file {
+    width:100%;
+    padding: 40px;
+    border: 2px dashed #0087F7;
+    border-radius: 5px;
+    background: white;
+}
+
+.jumbotron {
+    background-color: #E8E9EC;
+    border-radius: 0px;
+  
+}
+
+.comment {
+    padding-left: 20px;
+    border: 1px solid #e8e9ec;
+    background: white;
+    border-top: 0;
+}
+
+.comment > p {
+    /* padding-left: 30px; */
+    padding-right: 10px;
+}
+
+h2.post-header {
+    border: 1px #e8e9ec solid;
+    padding: 20px;
+    background: #e8e9ec;
+    margin-bottom: 0;
+}
+
+.add-comment {
+    /* height: 50px; */
+    border: 1px solid #e8e9ec;
+    border-top: 0;
+    padding: 10px;
+    position: relative;
+    padding-top: 20px;
+    background-color: #f6f8fa;
+}
+
+.add-comment > textarea {
+    width:100%;
+    display: block;
+    border: 1px solid #e8e9ec;
+    padding: 5px;
+    resize: none;
+
+}
